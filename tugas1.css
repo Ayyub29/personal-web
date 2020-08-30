@@ -69,3 +69,19 @@ body, html {
   position:relative;
   top:20%
 }
+
+.popup .popuptext {
+  visibility: hidden;
+  width: 159px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  margin-left: -90px;
+}
+
+.popup .show {
+  visibility: visible;
+}
